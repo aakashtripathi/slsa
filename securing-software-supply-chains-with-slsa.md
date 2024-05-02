@@ -16,4 +16,12 @@ The SLSA framework offers a trusted system with clear guidelines and tamper-proo
 - Ensuring that uploaded artifacts were indeed built by the expected CI/CD platform, indicated by a distinct "stamp" showing the build platform's origin.
 - Mitigating threats to the build platform itself by implementing best practices for build platform services.
 
+## Threats To The Software Supply Chain
 
+
+
+SLSA primarily focuses on maintaining the integrity of the software supply chain, with a secondary emphasis on ensuring availability. Integrity entails protecting against unauthorized modifications or tampering throughout the software lifecycle. Under SLSA, integrity is further categorized into source integrity and build integrity.
+
+- Source integrity involves verifying that all alterations to the source code align with the intentions of the software producer. As defining an organization's intent can be complex, SLSA approximates this by requiring approval from two authorized representatives.
+- Build integrity ensures that the package is constructed from the correct, unaltered sources and dependencies as per the software producer's build recipe. Additionally, it ensures that artifacts remain unmodified as they transition through various development stages.
+- Availability ensures that the package remains buildable and maintainable in the future, and that all code and change history are accessible for investigations and incident response.

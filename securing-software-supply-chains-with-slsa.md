@@ -47,6 +47,27 @@ In each track, ascending levels signify progressively strengthened security meas
 The combination of tracks and levels provides a convenient framework for assessing whether software satisfies particular criteria. For instance, labeling an artifact as meeting SLSA Build Level 3 communicates that the software was constructed adhering to industry-endorsed security practices, guarding against specific supply chain vulnerabilities.
 
 
+## What Can SLSA Do For You ?
+
+Everyone involved in producing and consuming software, or providing infrastructure for software can leverage SLSA 
+
+- For software producers, SLSA safeguards against tampering in the supply chain, reducing insider risks and ensuring intended delivery to consumers.
+- Software consumers benefit from SLSA by assessing the security practices of the software they rely on, ensuring received software matches expectations.
+- Infrastructure providers play a crucial role in establishing a secure software supply chain between producers and consumers by adopting SLSA.
+
+Large and small organizations, Open source projects and software vendors can all use SLSA to ensure the risk of a supply chain breach is minimized and the authenticity and integrity of their supply chain and deliverables can be validated. 
+
+## What SLSA Is Not 
+
+While SLSA is crucial, it's only part of a comprehensive supply chain security strategy. Considerations beyond SLSA include ensuring code quality by assessing developers' adherence to secure coding practices. Additionally, while SLSA builds trust within trusted organizations, it doesn't address intentional malicious production. Lastly, SLSA levels for artifacts don't encompass their dependencies, necessitating a recursive application of SLSA for comprehensive assessment.
+
+## Way Forward 
+
+We have seen how implementing SLSA can help build confidence in out software supply chains and ultimately our product. But before we can begin the application of SLSA , we would need to undestand the key terminologies and practices associated with SLSA. This would be covered in the next blog in this series. We would explore key concepts such as *Builder*, *Provenance* , *Validations*  , etc which would help us getting started with implementing SLSA. 
+
+
+
+
 
 
 

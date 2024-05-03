@@ -7,6 +7,7 @@ The cybersecurity landscape has been rattled by a spate of supply chain attacks 
 
 In a series of articles, we will explore Supply-chain Levels for Software Artifacts, or SLSA ("salsa") which is a security framework, a checklist of standards and controls to prevent tampering, improve integrity, and secure packages and infrastructure. When implemented in conjunction with automated testing tools in the DevSecOps pipeline, secure coding practices, and strong third-party software vetting, SLSA can be an important part of a comprehensive software supply chain security strategy.
 
+---
 ## Understanding SLSA
 
 Google's security team unveiled SLSA in June 2021, drawing inspiration from their long-standing practice of "Binary Authorization for Borg," which has safeguarded the company's production workloads for nearly a decade. The release of SLSA coincided with a tumultuous period in software supply chain security, following the disclosure of exploits such as SolarWinds and the Codecov bash uploader vulnerabilities. The blog read :
@@ -46,7 +47,7 @@ In each track, ascending levels signify progressively strengthened security meas
 
 The combination of tracks and levels provides a convenient framework for assessing whether the software satisfies particular criteria. For instance, labelling an artifact as meeting SLSA Build Level 3 communicates that the software was constructed adhering to industry-endorsed security practices, guarding against specific supply chain vulnerabilities.
 
-
+---
 ## What Can SLSA Do For You?
 
 Everyone involved in producing and consuming software, or providing infrastructure for software can leverage SLSA 
@@ -61,10 +62,11 @@ Large and small organizations, Open source projects and software vendors can all
 
 While SLSA is crucial, it's only part of a comprehensive supply chain security strategy. Considerations beyond SLSA include ensuring code quality by assessing developers' adherence to secure coding practices. Additionally, while SLSA builds trust within trusted organizations, it doesn't address intentional malicious production. Lastly, SLSA levels for artifacts don't encompass their dependencies, necessitating a recursive application of SLSA for a comprehensive assessment.
 
+---
 ## Way Forward 
 
 We have seen how implementing SLSA can help build confidence in our software supply chains and ultimately our product. But before we can begin the application of SLSA, we would need to understand the key terminologies and practices associated with SLSA. This will be covered in the next blog in this series. We would explore key concepts such as *Builder*, *Provenance*, *Validations*, etc which would help us getting started with implementing SLSA. 
-
+---
 
 
 

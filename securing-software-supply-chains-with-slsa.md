@@ -10,7 +10,7 @@ In a series of articles, we will explore Supply-chain Levels for Software Artifa
 
 Google's security team unveiled SLSA in June 2021, drawing inspiration from their long-standing practice of "Binary Authorization for Borg," which has safeguarded the company's production workloads for nearly a decade. The release of SLSA coincided with a tumultuous period in software supply chain security, following the disclosure of exploits such as SolarWinds and the Codecov bash uploader vulnerabilities. The blog read :
 
-*"The goal of SLSA is to improve the state of the industry, particularly open source, to defend against the most pressing integrity threats. With SLSA, consumers can make informed choices about the security posture of the software they consume."*
+```"The goal of SLSA is to improve the state of the industry, particularly open source, to defend against the most pressing integrity threats. With SLSA, consumers can make informed choices about the security posture of the software they consume."```
 
 The SLSA framework offers a trusted system with clear guidelines and tamper-proof evidence at every stage of software development.SBOM or "Software Bill of Materials" is often referred to as the ingredient label of software, extending the same analogy SLSA can be thought of as all the safety guidelines that make an ingredient list credible.
 

@@ -28,10 +28,13 @@ This ensures not only that no unexpected changes are made to the software, but a
 - Ensuring that uploaded artifacts were indeed built by the expected CI/CD platform, indicated by a distinct "stamp" showing the build platform's origin.
 - Mitigating threats to the build platform itself by implementing best practices for build platform services.
 
+---
+
 ## Threats To The Software Supply Chain
 
-![Source](https://github.com/aakashtripathi/slsa/assets/9936789/2f5e9107-4ec4-4c94-9087-00926094836c)
+Prior to SLSA, there were only isolated solutions capable of detecting and addressing specific vulnerabilities at different stages of the supply chain. Unlike these fragmented approaches, SLSA offers a holistic framework designed to safeguard the entire software supply chain. It not only outlines strategies to mitigate threats across all supply chain components but also furnishes security assurances that fortify against attacks in a dynamic security landscape.
 
+![Source](https://github.com/aakashtripathi/slsa/assets/9936789/2f5e9107-4ec4-4c94-9087-00926094836c)
 
 
 SLSA primarily focuses on maintaining the integrity of the software supply chain, with a secondary emphasis on ensuring availability. Integrity entails protecting against unauthorized modifications or tampering throughout the software lifecycle. Under SLSA, integrity is further categorized into source integrity and build integrity.
@@ -39,3 +42,5 @@ SLSA primarily focuses on maintaining the integrity of the software supply chain
 - Source integrity involves verifying that all alterations to the source code align with the intentions of the software producer. As defining an organization's intent can be complex, SLSA approximates this by requiring approval from two authorized representatives.
 - Build integrity ensures that the package is constructed from the correct, unaltered sources and dependencies as per the software producer's build recipe. Additionally, it ensures that artifacts remain unmodified as they transition through various development stages.
 - Availability ensures that the package remains buildable and maintainable in the future, and that all code and change history are accessible for investigations and incident response.
+
+---

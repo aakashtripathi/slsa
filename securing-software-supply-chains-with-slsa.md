@@ -19,7 +19,7 @@ This ensures not only that no unexpected changes are made to the software, but a
 
 - Unauthorized modifications to the code by applying a tamper-evident "seal" to the code post source control.
 - Ensuring that uploaded artifacts were indeed built by the expected CI/CD platform, indicated by a distinct "stamp" showing the build platform's origin.
-- Mitigating threats to the build platform itself by implementing best practices for build platform services.
+- Mitigating threats to the build platform itself by implementing best practices for building platform services.
 
 ---
 
@@ -63,7 +63,7 @@ While SLSA is crucial, it's only part of a comprehensive supply chain security s
 
 ## Way Forward 
 
-We have seen how implementing SLSA can help build confidence in our software supply chains and ultimately our product. But before we can begin the application of SLSA , we would need to undestand the key terminologies and practices associated with SLSA. This will be covered in the next blog in this series. We would explore key concepts such as *Builder*, *Provenance* , *Validations*  , etc which would help us getting started with implementing SLSA. 
+We have seen how implementing SLSA can help build confidence in our software supply chains and ultimately our product. But before we can begin the application of SLSA, we would need to understand the key terminologies and practices associated with SLSA. This will be covered in the next blog in this series. We would explore key concepts such as *Builder*, *Provenance*, *Validations*, etc which would help us getting started with implementing SLSA. 
 
 
 

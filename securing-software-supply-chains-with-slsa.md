@@ -66,6 +66,7 @@ While SLSA is crucial, it's only part of a comprehensive supply chain security s
 ## Way Forward 
 
 We have seen how implementing SLSA can help build confidence in our software supply chains and ultimately our product. But before we can begin the application of SLSA, we would need to understand the key terminologies and practices associated with SLSA. This will be covered in the next blog in this series. We would explore key concepts such as *Builder*, *Provenance*, *Validations*, etc which would help us getting started with implementing SLSA. 
+
 ---
 
 

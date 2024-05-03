@@ -37,3 +37,18 @@ SLSA primarily focuses on maintaining the integrity of the software supply chain
 - Availability ensures that the package remains buildable and maintainable in the future, and that all code and change history are accessible for investigations and incident response.
 
 ---
+
+## Tracks & Levels 
+
+SLSA is spoken of in terms of *tracks* & *levels*. In a SLSA framework, each track concentrates on a specific facet of the software supply chain, such as the Build Track. While SLSA v1.0 encompasses solely the Build Track, forthcoming iterations will introduce additional tracks addressing various aspects of the software supply chain, such as the management of source code.
+
+In each track, ascending levels signify progressively strengthened security measures. While higher levels offer enhanced protection against supply chain threats, they also entail higher implementation expenses. Lower SLSA levels are tailored for easier adoption, albeit with relatively modest security assurances. SLSA 0 is occasionally applied to software lacking any SLSA level compliance.
+
+The combination of tracks and levels provides a convenient framework for assessing whether software satisfies particular criteria. For instance, labeling an artifact as meeting SLSA Build Level 3 communicates that the software was constructed adhering to industry-endorsed security practices, guarding against specific supply chain vulnerabilities.
+
+
+
+
+
+
+

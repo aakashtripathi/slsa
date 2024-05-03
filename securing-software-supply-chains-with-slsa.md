@@ -49,9 +49,9 @@ The combination of tracks and levels provides a convenient framework for assessi
 
 Everyone involved in producing and consuming software, or providing infrastructure for software can leverage SLSA 
 
-- For software producers, SLSA safeguards against tampering in the supply chain, reducing insider risks and ensuring intended delivery to consumers.
-- Software consumers benefit from SLSA by assessing the security practices of the software they rely on, ensuring received software matches expectations.
-- Infrastructure providers play a crucial role in establishing a secure software supply chain between producers and consumers by adopting SLSA.
+- For software `producers`, SLSA safeguards against tampering in the supply chain, reducing insider risks and ensuring intended delivery to consumers.
+- Software `consumers` benefit from SLSA by assessing the security practices of the software they rely on, ensuring received software matches expectations.
+- `Infrastructure providers` play a crucial role in establishing a secure software supply chain between producers and consumers by adopting SLSA.
 
 Large and small organizations, Open source projects and software vendors can all use SLSA to ensure the risk of a supply chain breach is minimized and the authenticity and integrity of their supply chain and deliverables can be validated. 
 
